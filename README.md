@@ -1,4 +1,4 @@
-# file-drop
+# file-drops
 
 A simple in-browser file drop utility.
 
@@ -6,7 +6,7 @@ A simple in-browser file drop utility.
 ## Usage
 
 ```javascript
-import fileDrop from 'file-drop';
+import fileDrop from 'file-drops';
 
 const element = document.querySelector('#container');
 

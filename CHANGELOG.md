@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to [file-drop](https://github.com/nikku/file-drop) are documented here. We use [semantic versioning](http://semver.org/) for releases.
+All notable changes to [file-drops](https://github.com/nikku/file-drops) are documented here. We use [semantic versioning](http://semver.org/) for releases.
 
 ## Unreleased
 
