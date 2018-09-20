@@ -6,6 +6,10 @@ All notable changes to [file-drops](https://github.com/nikku/file-drops) are doc
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.2.0
+
+* `FEAT`: add `label` class to overlay label
+
 ## 0.1.1
 
 * `DOCS`: add styling section

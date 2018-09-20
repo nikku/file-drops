@@ -25,7 +25,7 @@ container element:
 ```html
 <div class="drop-overlay">
   <div class="box">
-    <div>{label}</div>
+    <div class="label">{label}</div>
   </div>
 </div>
 ```
