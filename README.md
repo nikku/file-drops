@@ -17,6 +17,20 @@ const dropHandler = fileDrop('Drop a file', function(files) {
 element.addEventListener('dragstart', dropHandler);
 ```
 
+## Styling
+
+On drop over, the utility will attach a the following overlay to the
+container element:
+
+```html
+<div class="drop-overlay">
+  <div class="box">
+    <div>{label}</div>
+  </div>
+</div>
+```
+
+Style it as you wish. :heart:
 
 ## License
 
