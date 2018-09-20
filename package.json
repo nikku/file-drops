@@ -1,6 +1,6 @@
 {
   "name": "file-drops",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple in-browser file drop utility",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
