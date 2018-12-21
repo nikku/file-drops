@@ -14,7 +14,7 @@ const dropHandler = fileDrop('Drop a file', function(files) {
   // files = [ { name, contents }, ... ]
 });
 
-element.addEventListener('dragstart', dropHandler);
+element.addEventListener('dragover', dropHandler);
 ```
 
 ## Styling
