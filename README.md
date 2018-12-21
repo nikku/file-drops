@@ -17,10 +17,11 @@ const dropHandler = fileDrop('Drop a file', function(files) {
 element.addEventListener('dragover', dropHandler);
 ```
 
+
 ## Styling
 
 On drop over, the utility will attach a the following overlay to the
-container element:
+element for which the drop handler got registered:
 
 ```html
 <div class="drop-overlay">
@@ -31,6 +32,7 @@ container element:
 ```
 
 Style it as you wish. :heart:
+
 
 ## License
 
