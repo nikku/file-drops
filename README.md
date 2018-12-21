@@ -20,7 +20,7 @@ element.addEventListener('dragover', dropHandler);
 
 ## Styling
 
-On drop over, the utility will attach a the following overlay to the
+On drop over, the utility will attach the following overlay to the
 element for which the drop handler got registered:
 
 ```html
