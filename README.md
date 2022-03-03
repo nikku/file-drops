@@ -34,6 +34,11 @@ element for which the drop handler got registered:
 Style it as you wish. :heart:
 
 
+## See also
+
+* [file-open](https://github.com/nikku/file-open) - simple file open utility
+
+
 ## License
 
 MIT
