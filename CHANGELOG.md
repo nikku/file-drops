@@ -6,6 +6,10 @@ All notable changes to [file-drops](https://github.com/nikku/file-drops) are doc
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.5.0
+
+* `DEPS`: update to `min-dom@4`
+
 ## 0.4.0
 
 * `CHORE`: provide pre-built UMD distribution
