@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>file-drops test</title>
+</head>
+<body>
+
+  <style>
+    #container {
+      width: 50vw;
+      height: 50vh;
+
+      border: solid 3px #CCC;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .drop-overlay {
+      background: #EEE;
+      border: solid 3px fuchsia;
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      right: -3px;
+      bottom: -3px;
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+
+  <div id="container">
+    <p>Drop inside me</p>
+  </div>
+
+  <script src="../dist/file-drops.umd.js"></script>
+
+  <script type="module">
+    const element = document.querySelector('#container');
+
+    const dropHandler = FileDrops('Drop a file', function(files) {
+
+      console.log('Dropped files', files);
+    });
+
+    element.addEventListener('dragover', dropHandler);
+  </script>
+</body>
+</html>
