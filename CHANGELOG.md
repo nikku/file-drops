@@ -12,6 +12,7 @@ _Re-release of `v0.6.0`._
 
 ## 0.6.0
 
+* `FEAT`: add type definitions
 * `FEAT`: turn into ES module
 * `FEAT`: drop UMD distribution
 
