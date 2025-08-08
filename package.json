@@ -38,7 +38,7 @@
     "rollup": "^4.46.2"
   },
   "dependencies": {
-    "min-dom": "^4.0.3"
+    "min-dom": "^4.2.1"
   },
   "files": [
     "dist"
