@@ -42,12 +42,21 @@
     <p>Drop inside me</p>
   </div>
 
-  <script src="../dist/file-drops.umd.js"></script>
-
+  <script type="importmap">
+    {
+      "imports": {
+        "file-drops": "../dist/index.js",
+        "min-dom": "../node_modules/min-dom/dist/index.esm.js"
+      }
+    }
+  </script>
   <script type="module">
+
+    import fileDrop from '../dist/index.js';
+
     const element = document.querySelector('#container');
 
-    const dropHandler = FileDrops('Drop a file', function(files) {
+    const dropHandler = fileDrop('Drop a file', function(files) {
 
       console.log('Dropped files', files);
     });
