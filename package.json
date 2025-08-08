@@ -32,8 +32,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-bpmn-io": "^0.10.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-bpmn-io": "^2.2.0",
     "npm-run-all2": "^8.0.4",
     "rollup": "^4.46.2"
   },
