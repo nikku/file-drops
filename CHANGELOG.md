@@ -6,6 +6,10 @@ All notable changes to [file-drops](https://github.com/nikku/file-drops) are doc
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.6.1
+
+_Re-release of `v0.6.0`._
+
 ## 0.6.0
 
 * `FEAT`: turn into ES module
