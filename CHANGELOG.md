@@ -6,6 +6,10 @@ All notable changes to [file-drops](https://github.com/nikku/file-drops) are doc
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.5.1
+
+* `FIX`: correct usage in Safari ([#2](https://github.com/nikku/file-drops/issues/2))
+
 ## 0.5.0
 
 * `DEPS`: update to `min-dom@4`
