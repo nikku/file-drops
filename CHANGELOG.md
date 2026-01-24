@@ -6,6 +6,10 @@ All notable changes to [file-drops](https://github.com/nikku/file-drops) are doc
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.7.0
+
+* `DEPS`: update to `min-dom@5.2.0`
+
 ## 0.6.2
 
 * `FIX`: correct types reference
